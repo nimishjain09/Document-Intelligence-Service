@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.git/
+docs/
+summaries/
+tests/
+.env
+benchmark.py
+test_api.py
+test_validation.py
+README.md
