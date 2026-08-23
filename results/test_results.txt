@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.15, pytest-9.1.1, pluggy-1.6.0 -- /Users/nimishjain09/doc_summarizer/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/nimishjain09/doc_summarizer
+configfile: pyproject.toml
+testpaths: tests
+plugins: asyncio-1.4.0, anyio-4.14.2
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 14 items
+
+tests/test_chunking.py::test_empty_text_returns_empty_list PASSED        [  7%]
+tests/test_chunking.py::test_short_text_single_chunk PASSED              [ 14%]
+tests/test_chunking.py::test_long_text_splits_into_multiple_chunks PASSED [ 21%]
+tests/test_chunking.py::test_oversized_paragraph_is_hard_split PASSED    [ 28%]
+tests/test_factory.py::test_txt_returns_txt_loader PASSED                [ 35%]
+tests/test_factory.py::test_pdf_returns_pdf_loader PASSED                [ 42%]
+tests/test_factory.py::test_docx_returns_docx_loader PASSED              [ 50%]
+tests/test_factory.py::test_unsupported_extension_raises PASSED          [ 57%]
+tests/test_factory.py::test_supported_extensions_listed PASSED           [ 64%]
+tests/test_orchestrator.py::test_process_single_txt_file PASSED          [ 71%]
+tests/test_orchestrator.py::test_process_multiple_files_concurrently PASSED [ 78%]
+tests/test_orchestrator.py::test_unsupported_file_is_skipped PASSED      [ 85%]
+tests/test_qa_agent.py::test_vector_store_build_and_search PASSED        [ 92%]
+tests/test_qa_agent.py::test_empty_store_returns_empty PASSED            [100%]
+
+============================== 14 passed in 0.41s ==============================

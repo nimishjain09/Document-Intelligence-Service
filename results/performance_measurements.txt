@@ -1,0 +1,9 @@
+=== SUMMARIZATION MEASUREMENTS ===
+Document size:        3247 chars
+Model load time:      5.33 s
+Summarization time:   8.17 s
+Summary length:       459 chars
+Compression ratio:    0.141
+
+Summary:
+Union Home Minister Amit Shah emphasised the need for early resolution of pending water-related issues concerning southern States. He said linking major rivers, from the Brahmaputra to the Cauvery and the Godavari, could ensure India faces no water shortage for the next 100 years. He also called for swift investigation of cases of rape against women and children, and the early disposal of rape and Protection of Children from Sexual Offences (POCSO) cases.
