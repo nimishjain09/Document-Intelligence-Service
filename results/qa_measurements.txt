@@ -1,0 +1,19 @@
+=== Q&A (RAG) MEASUREMENTS ===
+Document: long_article.txt
+Chunks indexed:  10
+Indexing time:   0.79 s
+
+Q: Who addressed the meeting?
+   Answer time:  19.18 s
+   Confidence:   1.0
+   Answer:       Chief Ministers C. Joseph Vijay (Tamil Nadu), N. Chandrababu Naidu (Andhra Pradesh), D.K. Shivakumar (Karnataka), and V.
+
+Q: What did the minister call for regarding drugs?
+   Answer time:  5.39 s
+   Confidence:   1.0
+   Answer:       a drug-free India
+
+Q: Summarize the main concerns discussed.
+   Answer time:  7.80 s
+   Confidence:   0.8
+   Answer:       The main concerns discussed were the resolution of pending water-related issues, malnutrition, stunting, school dropout 
